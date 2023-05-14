@@ -1,0 +1,105 @@
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+  }
+  .right {
+  }
+
+  .title {
+    position: relative;
+    font-size: 89px;
+    width: 270px;
+    height: 95px;
+    left: 23px;
+    top: 80px;
+  }
+
+  .title p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 3px;
+    color: rgba(0, 0, 0, 0.72);
+  }
+
+  .title span {
+    position: relative;
+    width: 154px;
+    height: 48px;
+    left: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+  }
+  .right-card {
+    flex: 0 0 calc(50% - 20px);
+    width: 188px;
+    height: 240px;
+    margin: 15px;
+    border-radius: 20px;
+  }
+
+  .left-card {
+    flex: 0 0 calc(50% - 20px);
+    width: 162px;
+    height: 186px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  button {
+    position: fixed;
+    width: 375px;
+    height: 65px;
+    left: 29px;
+    top: 735px;
+    background: #74f5eb;
+    border-radius: 19px;
+    border: none;
+  }
+  button p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  button span i{
+    position: absolute;
+    left: 83.49%;
+    right: 10.7%;
+    top: 50%;
+    bottom: 10.62%;
+  }
+  .botom-text {
+    position: fixed;
+    width: 350px;
+    font-size: 13px;
+    height: 20px;
+    left: 35px;
+    top: 810px;
+    color: rgba(0, 0, 0, 0.49);
+  }
+  .botom-text span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.82);
+    text-decoration-line: underline;
+  }
+}
